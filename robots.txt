@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abdelhamed-hamed-ahmed.onrender.com/sitemap.xml

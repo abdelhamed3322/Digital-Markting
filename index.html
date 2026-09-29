@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="عبد الحميد حامد - خدمات التسويق الرقمي المتكاملة">
+    <meta name="keywords" content="تسويق رقمي, SEO, SEM, Social Media, Digital Marketing">
+    <title>عبد الحميد حامد | خدمات التسويق الرقمي</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>عبد الحميد <span>حامد</span></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>نحول أفكارك إلى <span class="highlight">نجاح رقمي</span></h2>
+                <p>خدمات تسويق رقمي متكاملة لتنمية عملك وزيادة مبيعاتك</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">تصفح المنتجات</a>
+                    <a href="#contact" class="btn btn-secondary">اطلب استشارة مجانية</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">📊</div>
+                    <h3>تحسين محركات البحث SEO</h3>
+                    <p>تحسين ظهور موقعك في نتائج البحث لزيادة الزوار العضويين</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">📱</div>
+                    <h3>إدارة وسائل التواصل الاجتماعي</h3>
+                    <p>إدارة احترافية لحساباتك على جميع المنصات</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🎯</div>
+                    <h3>الإعلانات الممولة</h3>
+                    <p>حملات إعلانية مستهدفة على جوجل وفيسبوك</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">✉️</div>
+                    <h3>التسويق عبر البريد الإلكتروني</h3>
+                    <p>حملات بريدية فعالة لزيادة المبيعات</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">منتجاتنا وخدماتنا</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-badge">الأكثر مبيعاً</div>
+                    <h3>باقة البداية</h3>
+                    <div class="price">
+                        <span class="amount">299</span>
+                        <span class="currency">ريال/شهر</span>
+                    </div>
+                    <ul class="features">
+                        <li>✅ إدارة حسابين تواصل اجتماعي</li>
+                        <li>✅ 8 منشورات شهرية</li>
+                        <li>✅ تقرير شهري</li>
+                        <li>✅ دعم فني عبر البريد</li>
+                    </ul>
+                    <button class="btn btn-buy" onclick="orderProduct('باقة البداية')">اطلب الآن</button>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card featured">
+                    <div class="product-badge popular">الأفضل</div>
+                    <h3>باقة الاحتراف</h3>
+                    <div class="price">
+                        <span class="amount">599</span>
+                        <span class="currency">ريال/شهر</span>
+                    </div>
+                    <ul class="features">
+                        <li>✅ إدارة 4 حسابات تواصل</li>
+                        <li>✅ 16 منشور شهرياً</li>
+                        <li>✅ تحسين SEO أساسي</li>
+                        <li>✅ حملة إعلانية واحدة</li>
+                        <li>✅ دعم فني 24/7</li>
+                    </ul>
+                    <button class="btn btn-buy" onclick="orderProduct('باقة الاحتراف')">اطلب الآن</button>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-badge">مميز</div>
+                    <h3>باقة الشركات</h3>
+                    <div class="price">
+                        <span class="amount">999</span>
+                        <span class="currency">ريال/شهر</span>
+                    </div>
+                    <ul class="features">
+                        <li>✅ إدارة كاملة للتسويق</li>
+                        <li>✅ منشورات يومية</li>
+                        <li>✅ SEO متقدم</li>
+                        <li>✅ 3 حملات إعلانية</li>
+                        <li>✅ تقارير أسبوعية</li>
+                        <li>✅ مدير حساب خاص</li>
+                    </ul>
+                    <button class="btn btn-buy" onclick="orderProduct('باقة الشركات')">اطلب الآن</button>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <h3>تصميم هوية بصرية</h3>
+                    <div class="price">
+                        <span class="amount">750</span>
+                        <span class="currency">ريال</span>
+                    </div>
+                    <ul class="features">
+                        <li>✅ تصميم شعار احترافي</li>
+                        <li>✅ هوية بصرية كاملة</li>
+                        <li>✅ 5 نماذج أولية</li>
+                        <li>✅ ملفات مفتوحة المصدر</li>
+                    </ul>
+                    <button class="btn btn-buy" onclick="orderProduct('تصميم هوية بصرية')">اطلب الآن</button>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <h3>إنشاء متجر إلكتروني</h3>
+                    <div class="price">
+                        <span class="amount">2500</span>
+                        <span class="currency">ريال</span>
+                    </div>
+                    <ul class="features">
+                        <li>✅ متجر إلكتروني متكامل</li>
+                        <li>✅ حتى 50 منتج</li>
+                        <li>✅ بوابة دفع إلكتروني</li>
+                        <li>✅ تدريب على الاستخدام</li>
+                        <li>✅ دعم فني 3 أشهر</li>
+                    </ul>
+                    <button class="btn btn-buy" onclick="orderProduct('إنشاء متجر إلكتروني')">اطلب الآن</button>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <h3>استشارة تسويقية</h3>
+                    <div class="price">
+                        <span class="amount">150</span>
+                        <span class="currency">ريال/ساعة</span>
+                    </div>
+                    <ul class="features">
+                        <li>✅ تحليل الوضع الحالي</li>
+                        <li>✅ خطة تسويقية مخصصة</li>
+                        <li>✅ توصيات عملية</li>
+                        <li>✅ تقرير مفصل</li>
+                    </ul>
+                    <button class="btn btn-buy" onclick="orderProduct('استشارة تسويقية')">اطلب الآن</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">من نحن</h2>
+                    <p>نحن فريق متخصص في التسويق الرقمي، نساعد الشركات والأفراد على تنمية أعمالهم عبر الإنترنت.</p>
+                    <p>بخبرة تزيد عن 5 سنوات في المجال، نقدم حلولاً مبتكرة وفعالة تناسب احتياجاتك وميزانيتك.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>+150</h3>
+                            <p>عميل سعيد</p>
+                        </div>
+                        <div class="stat">
+                            <h3>+300</h3>
+                            <p>مشروع منجز</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>سنوات خبرة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📧 البريد الإلكتروني</h3>
+                        <p>info@abdelhamed-marketing.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📱 الهاتف</h3>
+                        <p>+966 50 123 4567</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📍 الموقع</h3>
+                        <p>المملكة العربية السعودية</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="الاسم الكامل" required>
+                    <input type="email" placeholder="البريد الإلكتروني" required>
+                    <input type="tel" placeholder="رقم الهاتف">
+                    <textarea rows="5" placeholder="رسالتك" required></textarea>
+                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 عبد الحميد حامد - جميع الحقوق محفوظة</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Order Modal -->
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>طلب خدمة</h2>
+            <p id="productName"></p>
+            <form id="orderForm">
+                <input type="text" placeholder="الاسم الكامل" required>
+                <input type="email" placeholder="البريد الإلكتروني" required>
+                <input type="tel" placeholder="رقم الهاتف" required>
+                <textarea rows="4" placeholder="تفاصيل إضافية" required></textarea>
+                <button type="submit" class="btn btn-primary">تأكيد الطلب</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
